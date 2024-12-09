@@ -11,5 +11,5 @@ def txt_importer(path_file):
         return []
     with open(path_file, 'r', encoding='utf-8') as file:
         lines = file.read().strip().split('\n')
-    
+
     return lines
